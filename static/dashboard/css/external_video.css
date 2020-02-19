@@ -1,0 +1,41 @@
+.open-btn {
+    margin-left: 5%;
+}
+
+.video-select {
+    margin-top: 2%;
+    width: 20%;
+    display: inline-block;
+}
+
+.add-video-area {
+    display: block;
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    display: None;
+}
+.add-video-area2 {
+    display: block;
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.video-img {
+    width: 100%;
+}
+
+.info {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,48 @@
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#base-area{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.side-menu{
+    height: 100%;
+    width: 12%;
+    /*绝对定位，相对与base-area*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    list-style: none;
+    padding-left: 0px;
+    border: #cccccc 2px solid;
+}
+
+.side-menu > li {
+    text-align: center;
+    width: 100%;
+    line-height: 32px;
+    cursor: pointer;
+    border: 1px solid #cccccc ;
+}
+
+.base-content {
+    width: 88%;
+    height: 100%;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+}

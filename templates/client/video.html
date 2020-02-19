@@ -1,0 +1,23 @@
+<%inherit file="base.html"/>
+
+
+<%def name="content()">
+<%! from django.shortcuts import reverse %>
+%for video in videos:
+<a href="${reverse('client_video_sub',kwargs={'video_id':video.id})}">
+    <div class="video-show">
+        <div class="video-img"
+             style="background-image: url(${video.image}); background-size: cover; background-position: center ">
+        </div>
+        <p class="video-name">
+            ${video.name}
+        </p>
+    </div>
+</a>
+%endfor
+</%def>
+
+
+<%def name="css()">
+<link href="/static/client/css/public_video.css" rel="stylesheet">
+</%def>

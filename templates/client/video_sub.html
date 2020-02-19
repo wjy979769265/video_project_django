@@ -1,0 +1,62 @@
+<%inherit file="base.html"/>
+
+
+<%def name="content()">
+
+<%
+from django.shortcuts import reverse
+from app.model.video import FromType
+from app.utils.permission import client_auth
+%>
+
+<div class="data">
+    <img src="${video.image}" class="video-img"/>
+    <p>
+        <span class="span">
+            名称:
+        </span>
+        ${video.name}
+    </p>
+    <p>
+        <span class="span">
+            演员:
+        </span>
+    <ul>
+        %for man in video.video_star.all():
+        <li>
+            ${man.name}:${man.identity}:
+        </li>
+        %endfor
+    </ul>
+    </p>
+    <p>
+        <span class="span">
+            简介:
+        </span>
+        ${video.info}
+    </p>
+    <p>
+        <span>
+            选集：
+        </span>
+        % if not client_auth(request):
+        <a href="${reverse('client_auth')}">请您登陆</a>
+        % else:
+    <ul class="number-url">
+        %for data in video.video_sub.all():
+        <li><a href="${data.url}">
+            第${data.number}集
+        </a>
+        </li>
+        %endfor
+    </ul>
+    % endif
+
+
+    </p>
+</div>
+</%def>
+
+<%def name="css()">
+<link href="/static/client/css/video_sub.css" rel="stylesheet">
+</%def>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>${self.title()}</title>
+    <link href="/static/dashboard/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/static/dashboard/css/base.css" rel="stylesheet"/>
+    ${self.css()}
+    <style>
+        h1 {
+            margin: 5%;
+        }
+    </style>
+</head>
+<body>
+<%!from django.shortcuts import reverse%>
+<%include file="nav.html" />
+
+<div id="base-area">
+    <ul class="side-menu">
+        <li>
+            <a href="${reverse('admin_manager')}">管理员</a>
+        </li>
+        <li>
+            用户
+        </li>
+        <li>
+            <a href="${reverse('external_video')}">
+            视频
+            </a>
+        </li>
+        <li>
+            aas
+        </li>
+    </ul>
+    <div class="base-content">
+        ${self.content()}
+    </div>
+</div>
+
+
+</body>
+<script src="/static/dashboard/js/jquery-1.12.4.min.js"></script>
+<script src="/static/dashboard/js/bootstrap.min.js"></script>
+
+${self.js()}
+</html>
+
+
+<%def name="title()"></%def>
+<%def name="css()"></%def>
+<%def name="js()"></%def>
+<%def name="content()"></%def>
+
+
+

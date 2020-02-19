@@ -2,24 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c3723a-7d42-4dcb-9cbb-39c82e7025d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/client/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/client/view/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/client/view/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/client/view/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/client/view/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/views/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/views/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/views/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/base_qiniu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/base_render.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tasks/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/consts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/permission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/client/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/client/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/client/css/public_video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/client/css/video_sub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/client/js/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/css/external_video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dashboard/js/video/external_video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/auth/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/video_sub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/auth/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/video/external_video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/video/video_sub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/video/video_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/video_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/video_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/client/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_project/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,16 +90,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/dashboard/js" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/dashboard/js" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/client/css" />
+      <recent name="$PROJECT_DIR$/static/client" />
+      <recent name="$PROJECT_DIR$/templates/dashboard" />
+      <recent name="$PROJECT_DIR$/templates/dashboard/auth" />
+      <recent name="$PROJECT_DIR$/static/dashboard/css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="video_project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="video_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="video_project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8001" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,7 +145,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581908742216</updated>
-      <workItem from="1581908744879" duration="1885000" />
+      <workItem from="1581908744879" duration="4574000" />
+      <workItem from="1581913726139" duration="217000" />
+      <workItem from="1581913982825" duration="53192000" />
+      <workItem from="1582021240688" duration="1365000" />
+      <workItem from="1582023126636" duration="885000" />
+      <workItem from="1582024232664" duration="17561000" />
     </task>
     <servers />
   </component>
@@ -67,13 +158,91 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="795" y="187" key="SettingsEditor" timestamp="1581908846578">
+    <state x="1156" y="148" key="#Unnamed" timestamp="1582020136910">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state x="795" y="187" key="SettingsEditor/0.23.1792.1047@0.23.1792.1047" timestamp="1581908846578" />
+    <state x="1156" y="148" key="#Unnamed/0.23.1792.1047@0.23.1792.1047" timestamp="1582020136910" />
+    <state x="593" y="140" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582023568306">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="593" y="140" width="1071" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1582023568306" />
+    <state x="970" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582027274185">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="970" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1047@0.23.1792.1047" timestamp="1582027274185" />
+    <state x="974" y="358" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1582010084379" />
+    <state x="1088" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582026106163">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="1088" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1582026106163" />
+    <state x="1158" y="287" key="EnvironmentVariablesDialog" timestamp="1582023566123">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="1158" y="287" key="EnvironmentVariablesDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1582023566123" />
+    <state x="1062" y="344" key="FileChooserDialogImpl" timestamp="1582020111722">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="1062" y="344" key="FileChooserDialogImpl/0.23.1792.1047@0.23.1792.1047" timestamp="1582020111722" />
+    <state width="749" height="233" key="GridCell.Tab.0.bottom" timestamp="1582087448014">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="749" height="233" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1582087448014" />
+    <state width="781" height="284" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1582010052421" />
+    <state width="749" height="233" key="GridCell.Tab.0.center" timestamp="1582087448013">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="749" height="233" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1582087448013" />
+    <state width="781" height="284" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1582010052420" />
+    <state width="749" height="233" key="GridCell.Tab.0.left" timestamp="1582087448013">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="749" height="233" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1582087448013" />
+    <state width="781" height="284" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1582010052420" />
+    <state width="749" height="233" key="GridCell.Tab.0.right" timestamp="1582087448014">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="749" height="233" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1582087448014" />
+    <state width="781" height="284" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1582010052421" />
+    <state x="775" y="222" key="SettingsEditor" timestamp="1582024833005">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="775" y="222" key="SettingsEditor/0.23.1792.1047@0.23.1792.1047" timestamp="1582024833005" />
+    <state x="1108" y="127" width="684" height="841" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582025723227">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="1108" y="127" width="684" height="841" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1582025723227" />
     <state x="1198" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581909833454">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
     <state x="1198" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1047@0.23.1792.1047" timestamp="1581909833454" />
+    <state x="904" y="273" width="837" height="550" key="find.popup" timestamp="1582085504950">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="904" y="273" width="837" height="550" key="find.popup/0.23.1792.1047@0.23.1792.1047" timestamp="1582085504950" />
+    <state x="1015" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1582078691822">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="1015" y="259" width="670" height="676" key="search.everywhere.popup/0.23.1792.1047@0.23.1792.1047" timestamp="1582078691822" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/dashboard/views/auth.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/libs/base_qiniu.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/client/urls.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

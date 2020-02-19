@@ -1,0 +1,23 @@
+
+
+
+
+.data{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+}
+
+.video-img{
+    width: 100%;
+
+}
+
+.span{
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 0.2rem;
+}

@@ -1,0 +1,79 @@
+<%def name="content()">
+
+<%inherit file="../base.html" />
+<%! from django.shortcuts import reverse %>
+<%! from app.model.video import VideoType %>
+<%! from app.model.video import VideoType,NationlityType,FromType,IdentityType %>
+
+<h1>
+    ${video.name}
+</h1>
+<h1>
+    ${error}
+</h1>
+<h2>
+    集数
+</h2>
+<ul>
+    %for video_sub in video.video_sub.all():
+    <li>
+        %if not video_sub.url:
+        <a href="${video_sub.url}">第${video_sub.number}集 处理中...</a>
+        %else:
+        <a href="${video_sub.url}">第${video_sub.number}集</a>
+        %endif
+    </li>
+    %endfor
+
+</ul>
+<h2>
+    演员
+</h2>
+<ul>
+    %for video_star in video.video_star.all():
+    <li>
+        ${video_star.name}:${IdentityType(video_star.identity).label}
+        <a href="${reverse('delete_star',kwargs={'star_id':video_star.id,'video_id':video.id})}">删除</a>
+    </li>
+    %endfor
+
+</ul>
+
+
+<h4>添加文件</h4>
+%if FromType(video.from_to) == FromType.custom:
+<form enctype="multipart/form-data" action="${reverse('video_sub',kwargs={'video_id':video.id})}" class="form-horizontal edit-area add-video-area" method="post">
+    %else:
+    <form action="${reverse('video_sub',kwargs={'video_id':video.id})}" class="form-horizontal edit-area add-video-area" method="post">
+        %endif
+        ${csrf_token}
+        % if video.from_to != 'custom':
+        <label>添加地址</label>
+        <input type="text" name="url">
+        %else:
+        <label>上传视频</label>
+        <input class="form-control" type="file" name="url">
+        %endif
+        <label>添加集数</label>
+        <input type="number" name="number">
+        <input type="submit" class="btn-info" value="提交">
+    </form>
+
+    <h4>添加角色</h4>
+    <form action="${reverse('video_star')}" class="form-horizontal edit-area add-video-area" method="post">
+        ${csrf_token}
+        <label>演员</label>
+        <input type="text" name="name">
+        <label>身份</label>
+        <select class="" name="identity">
+            %for i in IdentityType:
+            <option value="${i.value}">
+                ${i.label}
+            </option>
+            %endfor
+        </select>
+        <input type="hidden" value="${video.id}" name="video_id">
+        <input type="submit" class="btn-info" value="提交">
+    </form>
+
+</%def>
